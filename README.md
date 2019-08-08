@@ -7,6 +7,8 @@ $git clone https://github.com/471D38UNNUX/Ngrok-For-Termux
 
 $cd Ngrok-For-Termux
 
+$chmod +x ngrok
+
 $./ngrok authtoken (your authtoken on your ngrok dashboard)
 
 For help run $./ngrok help
