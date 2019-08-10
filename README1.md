@@ -3,6 +3,8 @@ Before use this tool, first you should login to ngrok account in this link: http
 
 After that, run this script in your termux:
 
+$apt install git
+
 $git clone https://github.com/471D38UNNUX/Ngrok-For-Termux
 
 $cd Ngrok-For-Termux
