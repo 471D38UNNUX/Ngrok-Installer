@@ -1,5 +1,5 @@
 # How to Install Ngrok in Termux
-Before use this tool, first you should login to ngrok account in this link: https://ngrok.com/
+Before use this tool, first you should login to ngrok account in this link: https://dashboard.ngrok.com/login 
 
 After that, run this script in your termux:
 
