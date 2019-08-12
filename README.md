@@ -64,6 +64,8 @@ First download and install git bash in this link https://git-scm.com/
 
 After install git, open your cmd and run this script:
 
+git clone https://github.com/471D38UNNUX/Ngrok-Installer
+
 cd Ngrok-Installer
 
 cd Windows
