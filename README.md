@@ -6,7 +6,7 @@ Before use this tool, first you should login to ngrok account in this link: http
 
 After that, run this script:
 
-For termux and linux
+For termux:
 
 $apt install git
 
@@ -14,13 +14,9 @@ $git clone https://github.com/471D38UNNUX/Ngrok-Installer
 
 $cd Ngrok-Installer
 
-$cd (Termux/Linux)
+$cd Termux
 
-#cd (32 bit/64 bit) for linux only
-
-How to usage:
-
-For termux:
+To usage:
 
 $chmod +x ngrok
 
@@ -41,6 +37,18 @@ $./ngrok update
 If you have reconnecting problem, turn on your mobile hotspot or use vpn
 
 For linux:
+
+#sudo (apt/yum/zypper/pacman -S) install git
+
+#git clone https://github.com/471D38UNNUX/Ngrok-Installer
+
+#cd Ngrok-Installer
+
+#cd Linux
+
+#cd (32/64) bit
+
+To usage:
 
 #chmod +x ngrok
 
