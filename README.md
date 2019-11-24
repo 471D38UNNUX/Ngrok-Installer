@@ -16,23 +16,23 @@ $cd Ngrok-Installer
 
 $cd Termux
 
+$bash Ngrok-Installer.sh
+
 To usage:
 
-$chmod +x ngrok
-
-$./ngrok authtoken (your authtoken on your ngrok dashboard)
+$ngrok authtoken (your authtoken on your ngrok dashboard)
 
 For help:
 
-$./ngrok help
+$ngrok help
 
 For start a HTTP tunnel on port 80:
 
-$./ngrok http 80
+$ngrok http 80
 
 For update:
 
-$./ngrok update
+$ngrok update
 
 If you have reconnecting problem, turn on your mobile hotspot or use vpn
 
@@ -48,27 +48,29 @@ For linux:
 
 #cd (32/64) bit
 
+bash Ngrok-Installer.sh
+
 To usage:
 
-#chmod +x ngrok
-
-#./ngrok authtoken (your authtoken on your ngrok dashboard)
+#ngrok authtoken (your authtoken on your ngrok dashboard)
 
 For help:
 
-#./ngrok help
+#ngrok help
 
 For start a HTTP tunnel on port 80:
 
-#./ngrok http 80
+#ngrok http 80
 
 For update
 
-#./ngrok update
+#ngrok update
 
 For windows:
 
-First download and install git bash in this link https://git-scm.com/
+Download and install Git Bash in this link https://git-scm.com/
+
+Download WinRAR in this link https://www.win-rar.com/download.html and install it in C:\Program Files\WinRAR
 
 After install git, open your cmd and run this script:
 
@@ -79,6 +81,8 @@ cd Ngrok-Installer
 cd Windows
 
 cd (32 bit/64 bit)
+
+Ngrok-Installer
 
 How to usage:
 
