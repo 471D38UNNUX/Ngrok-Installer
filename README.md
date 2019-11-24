@@ -72,7 +72,7 @@ Download and install Git Bash in this link https://git-scm.com/
 
 Download WinRAR in this link https://www.win-rar.com/download.html and install it in C:\Program Files\WinRAR
 
-After install git, open your cmd and run this script:
+After install git, open your cmd as administrator and run this script:
 
 git clone https://github.com/471D38UNNUX/Ngrok-Installer
 
