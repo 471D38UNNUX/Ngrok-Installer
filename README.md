@@ -48,7 +48,7 @@ For linux:
 
 #cd (32/64) bit
 
-bash Ngrok-Installer.sh
+bash Ngrok-Installer-For-(your linux based).sh
 
 To usage:
 
