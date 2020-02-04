@@ -46,7 +46,7 @@ For linux:
 
 #cd Linux
 
-#cd (32/64) bit
+#cd '(32/64) bit'
 
 bash Ngrok-Installer-For-(your linux based).sh
 
@@ -66,7 +66,7 @@ For update
 
 #ngrok update
 
-For windows:
+For Windows:
 
 Download and install Git Bash in this link https://git-scm.com/
 
@@ -80,7 +80,9 @@ cd Ngrok-Installer
 
 cd Windows
 
-cd (32 bit/64 bit)
+cd Old (for earlier version than Windows 10 build 17063)
+
+cd (32/64) bit
 
 Ngrok-Installer
 
