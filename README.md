@@ -47,7 +47,7 @@ For linux:
 
 #sudo  pacman -S git (for Linux based on Arch)
 
-#sudo apk add git (For Alpine)
+#sudo apk add git (for Alpine)
 
 #git clone https://github.com/471D38UNNUX/Ngrok-Installer
 
