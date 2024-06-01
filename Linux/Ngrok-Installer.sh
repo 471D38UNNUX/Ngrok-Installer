@@ -21,8 +21,12 @@ then
     sudo zypper install wget tar apache2 -y
 elif command_exists pacman
 then
-    sudo sudo pacman -Syyu --noconfirm
+    sudo pacman -Syyu --noconfirm
     sudo pacman -S wget tar apache --noconfirm
+elif command_exists apk
+then
+    sudo apk update && sudo apk upgrade
+    sudo apk add wget tar apache2
 fi
 
 # Provide more detailed information using if-else
