@@ -26,9 +26,11 @@ For help:
 
 $ngrok help
 
-For start a HTTP tunnel on port 80:
+For start a HTTP tunnel on port 8080:
 
-$ngrok http 80
+$apachectl start
+
+$ngrok http 8080
 
 For update:
 
@@ -36,18 +38,21 @@ $ngrok update
 
 If you have reconnecting problem, turn on your mobile hotspot or use vpn
 
+If you want configuring Apache, Apache main configuration is located in $PREFIX/etc/apache2
+
+If you want modify an index.html, this file is stored in $PREFIX/share/apache2/default-site/htdocs
+
 For linux:
 
+#apt install git -y (for Linux based on Debian)
 
-#sudo apt install git -y (for Linux based on Debian)
+#yum install git -y (for Linux based on Red Hat)
 
-#sudo yum install git -y (for Linux based on Red Hat)
+#zypper install git (for Linux based on SUSE)
 
-#sudo zypper install git (for Linux based on SUSE)
+#pacman -S git (for Linux based on Arch)
 
-#sudo  pacman -S git (for Linux based on Arch)
-
-#sudo apk add git (for Alpine)
+#apk add git (for Alpine)
 
 #git clone https://github.com/471D38UNNUX/Ngrok-Installer
 
@@ -55,9 +60,7 @@ For linux:
 
 #cd Linux
 
-#cd '(32/64) bit'
-
-bash Ngrok-Installer-For-(your linux based).sh
+bash Ngrok-Installer.sh
 
 To usage:
 
@@ -69,29 +72,31 @@ For help:
 
 For start a HTTP tunnel on port 80:
 
+#sudo service apache2 start
+
 #ngrok http 80
 
 For update
 
 #ngrok update
 
+If you want configuring Apache, Apache main configuration is located in /etc/apache2
+
+If you want modify an index.html, this file is stored in /var/www/html
+
 For Windows:
 
 Download and install Git Bash in this link https://git-scm.com/
 
-Download WinRAR in this link https://www.win-rar.com/download.html and install it in C:\Program Files\WinRAR
+Download and install WinRAR in this link https://www.win-rar.com/download.html
 
-After install git, open your cmd as administrator and run this script:
+Download and install Apache in this link https://www.apachelounge.com/download/
 
 git clone https://github.com/471D38UNNUX/Ngrok-Installer
 
 cd Ngrok-Installer
 
 cd Windows
-
-cd Old (for earlier version than Windows 10 build 17063)
-
-cd (32/64) bit
 
 Ngrok-Installer
 
@@ -105,10 +110,22 @@ ngrok help
 
 For start a HTTP tunnel on port 80:
 
+Extract httpd which file you downloaded before with WinRAR
+
+Add httpd extracted directory\httpd-(version)\Apache(version)\bin and C:\ngrok into path environment variable
+
+Open Command Prompt
+
+httpd
+
 ngrok http 80
 
 For update:
 
 ngrok update
+
+If you want configuring Apache, Apache main configuration is located in httpd extracted directory\httpd-(version)\Apache(version)\conf
+
+If you want modify an index.html, this file is stored in httpd extracted directory\httpd-(version)\Apache(version)\htdocs
 
 Enjoy
